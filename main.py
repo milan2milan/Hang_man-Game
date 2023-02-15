@@ -47,7 +47,7 @@ def play_game(attempt=5):
     #It will show present state of the word
     current_word_state = ""
     for i in selected_word:
-        if i == ' ' or i == 'a' or i == 'k' or i == 'i' or i == 'c' or i == 'v' or i == 't' or i == 'o' or i == 'I':
+        if i == ' ' or i == 'a' or i == 'k' or i == 'i' or i == 'c' or i == 'v' or i == 't' or i == 'o' or i == 'I' or i=='x' or i=='y':
             current_word_state += i
             #current_word_state += ""
             continue
